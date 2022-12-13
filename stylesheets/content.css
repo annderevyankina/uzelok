@@ -1,0 +1,62 @@
+body {
+  height: 3186px;
+  width: 1920px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: url('images/thread1920.png');
+  font-family: 'Fantasque Sans Mono', sans-serif;
+}
+h1 {
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 55px;
+}
+h2 {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 70px;
+}
+p {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+p span {
+  font-weight: 700;
+}
+.point {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  background: #EB85C2;
+}
+.point2 {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  background: #667EFF;
+}
+.part1 {
+  display: flex;
+  position: relative;
+}
+.part1 h1:nth-of-type(1) {
+  margin-top: 160px;
+  margin-left: 290px;
+}
+.part1 h1:nth-of-type(2) {
+  margin-top: 160px;
+  margin-left: 290px;
+}
+.part1 img:nth-of-type(1) {
+  padding-top: 160px;
+  margin-left: 290px;
+}
+.part1 img:nth-of-type(2) {
+  margin-top: 160px;
+  margin-left: 290px;
+}
