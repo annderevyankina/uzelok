@@ -1,3 +1,12 @@
+body {
+  height: 3450px;
+  width: 1920px;
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  background: url('../images/thread1920.png');
+  font-family: 'Fantasque Sans Mono', sans-serif;
+}
 h1 {
   font-size: 60px;
   font-style: italic;

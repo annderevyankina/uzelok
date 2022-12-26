@@ -1,6 +1,6 @@
 @media (max-width: 1440px) {
   body {
-    background: url('images/thread1440.png');
+    background: url('../images/thread1440.png');
   }
   .part1 {
     max-width: 1440px;
@@ -8,6 +8,6 @@
 }
 @media (max-width: 414px) {
   body {
-    background: url('images/thread414.png');
+    background: url('../images/thread414.png');
   }
 }
