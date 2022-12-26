@@ -1,0 +1,7 @@
+@media (max-width: 1440px) {
+  body {
+    /* background: url ('images/thread1440.png') */
+    background: black;
+    transition: 2s ease;
+  }
+}

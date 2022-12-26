@@ -33,12 +33,28 @@ p span {
   width: 40px;
   border-radius: 50%;
   background: #EB85C2;
+  animation: point .8s ease-in infinite alternate;
+  animation-play-state: running;
+}
+.point:hover ~ img{
+  animation-play-state: running;
+}
+.point:hover {
+  animation-play-state: paused;
 }
 .point2 {
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background: #667EFF;
+  animation: point2 .8s ease infinite alternate 0.8s;
+  animation-play-state: running;
+}
+.point2:hover ~ img{
+  animation-play-state: running;
+}
+.point2:hover {
+  animation-play-state: paused;
 }
 .part1 {
   display: flex;
@@ -53,6 +69,7 @@ p span {
 .t1 p {
   padding-top: 279px;
   padding-left: 300px;
+  animation: textone .85s ease-out infinite alternate;
 }
 .m1 {
   display: flex;
@@ -63,7 +80,9 @@ p span {
 }
 .m1 img {
   margin-left: -25px;
-  opacity: 100%;
+  opacity: 0%;
+  animation: imgone 1s ease 1 forwards;
+  animation-play-state: paused;
 }
 .part2 {
   display: flex;
@@ -88,11 +107,15 @@ p span {
   margin-top: -46px;
   opacity: 100%;
   position: absolute;
+  opacity: 0%;
+  animation: imgone 1s ease 1 forwards;
+  animation-play-state: paused;
 }
 .t2 {
   margin-top: 160px;
   margin-left: 170px;
   position: absolute;
+  animation: texttwo .8s ease-in infinite alternate ;
 }
 
 .m3 {
@@ -112,11 +135,15 @@ p span {
   margin-top: 258px;
   opacity: 100%;
   position: absolute;
+  opacity: 0%;
+  animation: imgone 1s ease 1 forwards;
+  animation-play-state: paused;
 }
 .t3 {
-  margin-top: 1090px;
+  margin-top: 1070px;
   margin-left: 400px;
   position: absolute;
+  animation: textthree .8s ease-out infinite alternate ;
 }
 .m4 {
   display: flex;
@@ -135,11 +162,15 @@ p span {
   margin-top: 517px;
   opacity: 100%;
   position: absolute;
+  opacity: 0%;
+  animation: imgone 1s ease 1 forwards;
+  animation-play-state: paused;
 }
 .t4 {
   margin-top: 1030px;
-  margin-left: 880px;
+  margin-left: 870px;
   position: absolute;
+  animation: textfour .8s ease-in infinite alternate ;
 }
 .part5 {
   display: flex;
@@ -164,11 +195,15 @@ p span {
   margin-top: 26px;
   opacity: 100%;
   position: absolute;
+  opacity: 0%;
+  animation: imgtwo 1s ease 1 forwards;
+  animation-play-state: paused;
 }
 .t5 {
-  margin-top: 490px;
+  margin-top: 480px;
   margin-left: 950px;
   position: absolute;
+  animation: textfive .8s ease-out infinite alternate .9s;
 }
 .part4 {
   display: flex;
@@ -193,11 +228,15 @@ p span {
   margin-top: -80px;
   opacity: 100%;
   position: absolute;
+  opacity: 0%;
+  animation: imgone 1s ease 1 forwards;
+  animation-play-state: paused;
 }
 .t6 {
   margin-top: 260px;
   margin-left: 605px;
   position: absolute;
+  animation: textsix .8s ease-in infinite alternate;
 }
 .part4 h1 {
   padding-left:295px;
@@ -217,4 +256,51 @@ p span {
 .end img {
   /* padding-top: 279px; */
   padding-left: 100px;
+}
+
+@keyframes textone {
+  0% {padding-top: 279px;}
+  100% {padding-top: 259px;}
+}
+@keyframes texttwo {
+  0% {margin-left: 130px;}
+  100% {margin-left: 160px;}
+}
+@keyframes textthree {
+  0% {margin-top: 1070px;}
+  100% {margin-top: 1090px;}
+}
+@keyframes textfour {
+  0% {margin-left: 870px;}
+  100% {margin-left: 900px;}
+}
+@keyframes textfive {
+  0% {margin-top: 480px;}
+  100% {margin-top: 500px;}
+}
+@keyframes textsix {
+  0% {margin-top: 260px;}
+  100% {margin-top: 240px;}
+}
+@keyframes point {
+  0% {transform: scale(1.2);}
+  100% {transform: scale(1.6);}
+}
+@keyframes point2 {
+  0% {transform: scale(1.2);}
+  100% {transform: scale(1.6);}
+}
+@keyframes imgone {
+  0% {opacity: 0%; transform: scale(1); transform: rotate(1deg);}
+  25% {transform: rotate(-1.2deg);}
+  50% {transform: scale(1.05); transform: rotate(1deg);}
+  75% {transform: rotate(-1.2deg);}
+  100% {opacity: 100%; transform: scale(1);}
+}
+@keyframes imgtwo {
+  0% {opacity: 0%; transform: scale(1); transform: rotate(1deg);}
+  25% {transform: rotate(-1.5deg);}
+  50% {transform: scale(.95); transform: rotate(1deg);}
+  75% {transform: rotate(-1.5deg);}
+  100% {opacity: 100%; transform: scale(1);}
 }
