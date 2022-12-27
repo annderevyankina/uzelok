@@ -3,7 +3,7 @@ body {
   height: 179.688vw;
   display: block;
   margin: 0 auto;
-  background: url('../images/thread1920.png');
+  background: no-repeat top/100% url("../images/thread1920.png");
   font-family: 'Fantasque Sans Mono', sans-serif;
 }
 h1 {
@@ -87,6 +87,7 @@ p span {
   z-index: 1;
 }
 .m1 img {
+  width: 30.208vw;
   margin-left: -1.302vw;
   opacity: 0%;
   animation: imgone 1s ease 1 forwards;
@@ -111,6 +112,7 @@ p span {
 
 }
 .m2 img {
+  width: 37.865vw;
   margin-left: 8.854vw;
   margin-top: -2.396vw;
   opacity: 100%;
@@ -139,6 +141,7 @@ p span {
 
 }
 .m3 img {
+  width: 49.479vw;
   margin-left: -6.146vw;
   margin-top: 13.438vw;
   opacity: 100%;
@@ -166,6 +169,7 @@ p span {
 
 }
 .m4 img {
+  width: 21.979vw;
   margin-left: -1.979vw;
   margin-top: 26.927vw;
   opacity: 100%;
@@ -199,6 +203,7 @@ p span {
   position: absolute;
 }
 .m5 img {
+  width: 41.563vw;
   margin-left: 28.281vw;
   margin-top: 1.354vw;
   opacity: 100%;
@@ -232,6 +237,7 @@ p span {
   position: absolute;
 }
 .m6 img {
+  width: 34.271vw;
   margin-left: 3.125vw;
   margin-top: -4.167vw;
   opacity: 100%;
