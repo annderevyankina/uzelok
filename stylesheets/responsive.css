@@ -1,11 +1,16 @@
 @media (max-width: 1440px) {
   body {
-    background: url('../images/thread1440.png');
+    background: no-repeat top/100% url('../images/thread1440.png');
   }
 
 }
+@media (max-width: 834px) {
+  body {
+    background: no-repeat top/100% url('../images/thread834.png');
+  }
+}
 @media (max-width: 414px) {
   body {
-    background: url('../images/thread414.png');
+    background: no-repeat top/100% url('../images/thread414.png');
   }
 }
