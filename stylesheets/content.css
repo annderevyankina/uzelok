@@ -1,6 +1,5 @@
 body {
   height: 3450px;
-  width: 1920px;
   position: relative;
   display: block;
   margin: 0 auto;
@@ -68,7 +67,7 @@ p span {
 .part1 {
   display: flex;
   position: relative;
-  width: 1920px;
+  width: 100vw;
 }
 .t1 {
   width: 598px;
@@ -96,7 +95,7 @@ p span {
 .part2 {
   display: flex;
   position: relative;
-  width: 1920px;
+  width: 100vw;
   height: 1235px;
 }
 .m2 {
@@ -184,7 +183,7 @@ p span {
 .part5 {
   display: flex;
   position: relative;
-  width: 1920px;
+  width: 100vw;
   height: 565px;
 }
 .m5 {
@@ -217,7 +216,7 @@ p span {
 .part4 {
   display: flex;
   position: relative;
-  width: 1920px;
+  width: 100vw;
   height: 355px;
 }
 .m6 {
@@ -254,7 +253,7 @@ p span {
 .end {
   display: flex;
   position: relative;
-  width: 1920px;
+  width: 100vw;
   height: 136px;
   margin-top: 50px;
 }
