@@ -297,7 +297,7 @@
 @media (max-width: 414px) {
   body {
     background: no-repeat top/100% url('../images/thread414.png');
-    height: 280.676vw;
+    height: 275.676vw;
     overflow-x: hidden;
   }
   h1 {
@@ -354,10 +354,10 @@
     position: absolute;
   }
   .m2 img {
-    margin-left: -1.15vw;
-    margin-top: -4vw;
-    width: 67.391vw;
-    height: 43.720vw;
+    margin-left: -3.15vw;
+    margin-top: -5.5vw;
+    width: 69.391vw;
+    height: 46.72vw;
     animation: imgthree 1s ease 1 forwards;
     animation-play-state: paused;
   }
@@ -376,9 +376,9 @@
     margin-top: 82vw;
   }
   .m3 img {
-    width: 52vw;
-    margin-left: 13.86vw;
-    margin-top: 35.15vw;
+    width: 51vw;
+    margin-left: 14.86vw;
+    margin-top: 37.15vw;
     animation: imgtwo 1s ease 1 forwards;
     animation-play-state: paused;
   }
@@ -407,45 +407,50 @@
     margin-top: 21.5vw;
   }
   .m5 div {
-    margin-left: 57.5vw;
-    margin-top: 16vw;
+    margin-left: 58vw;
+    margin-top: 32.5vw;
   }
   .m5 img {
     width: 49.563vw;
-    margin-left: 30.7vw;
-    margin-top: -4.69vw;
+    margin-left: 31.7vw;
+    margin-top: 12.5vw;
   }
   .t5 {
-    margin-left: 52.403vw;
-    margin-top: 23.403vw;
+    margin-left: 56.403vw;
+    margin-top: 39.403vw;
   }
   .part4 {
     margin-top: 0vw;
   }
   .part4 h1 {
-    padding-left: 18.36vw;
+    padding-left: 5.35vw;
+    padding-top: 37vw;
   }
   .m6 div {
     margin-top: 7.99vw;
-    margin-left: 37.5vw;
+    margin-left: 31.5vw;
   }
   .m6 img {
-    width: 38.271vw;
-    margin-left: 1.125vw;
-    margin-top: -3.167vw;
+    width: 44.411vw;
+    margin-left: -3.875vw;
+    margin-top: 1.7vw;
   }
   .t6 {
-    margin-top: 16.542vw;
-    margin-left: 32.5vw;
+    margin-top: -1.542vw;
+    margin-left: 6.5vw;
+    animation: textsix .8s ease-out infinite alternate;
   }
   .end {
-    margin-top: 8.604vw;
+    margin-top: 40.604vw;
+    height: 8.696vw;
   }
   .end h2 {
-    padding-left: 50.5vw;
+    padding-left: 42.2vw;
   }
   .end img {
     padding-left: 3.208vw;
+    width: 21.116vw;
+    height: 8.971vw;
   }
   @keyframes textone {
     0% {padding-top: 38.250vw;}
@@ -462,6 +467,14 @@
   @keyframes textfour {
     0% {margin-top: 80.646vw;}
     100% {margin-top: 82.646vw;}
+  }
+  @keyframes textfive {
+    0% {margin-top: 39.403vw;}
+    100% {margin-top: 41.403vw;}
+  }
+  @keyframes textsix {
+    0% {margin-top: -1.542vw;}
+    100% {margin-top: 1.542vw;}
   }
   @keyframes imgone {
     0% {opacity: 0%; transform: scale(1); transform: rotate(10deg);}
