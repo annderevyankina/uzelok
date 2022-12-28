@@ -20,21 +20,20 @@ h2 {
 }
 h3 {
   font-size: 3.125vw;
-  font-style: italic;
   font-weight: 400;
-  line-height: 2.865vw;
   width: 16.667vw;
   padding-top: 5.469vw;
   padding-left: 78.125vw;
 }
 p {
   font-size: 2.604vw;
-  font-style: normal;
+  font-style: italic;
   font-weight: 400;
   line-height: 2.344vw;
 }
 p span {
   font-weight: 700;
+  font-style: normal;
 }
 .point {
   height: 2.083vw;
@@ -92,6 +91,12 @@ p span {
   opacity: 0%;
   animation: imgone 1s ease 1 forwards;
   animation-play-state: paused;
+}
+.imgmain {
+  display: block;
+}
+.imgmobile {
+  display: none;
 }
 .part2 {
   display: flex;
@@ -254,7 +259,6 @@ p span {
 }
 .part4 h1 {
   padding-left:15.365vw;
-  height: 6.406vw;
 }
 .end {
   display: flex;
@@ -262,7 +266,6 @@ p span {
   width: 100vw;
   height: 7.083vw;
   margin-top: 2.604vw;
-  margin-bottom: 2.604vw;
 }
 .end h2 {
   padding-left: 52.083vw;
