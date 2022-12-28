@@ -334,8 +334,9 @@
     margin-left: 12.05vw;
   }
   .t1 p {
-    padding-top: 26.250vw;
-    padding-left: 12.625vw;
+    padding-top: 40.25vw;
+    padding-left: 13.625vw;
+    animation: textone .85s ease-in infinite alternate;
   }
   .m1 div {
     margin-top: 45vw;
@@ -417,7 +418,7 @@
   }
   .t5 {
     margin-left: 56.403vw;
-    margin-top: 39.403vw;
+    margin-top: 40.403vw;
   }
   .part4 {
     margin-top: 0vw;
@@ -436,9 +437,8 @@
     margin-top: 1.7vw;
   }
   .t6 {
-    margin-top: -1.542vw;
-    margin-left: 6.5vw;
-    animation: textsix .8s ease-out infinite alternate;
+    margin-top: 0.45vw;
+    margin-left: 4.5vw;
   }
   .end {
     margin-top: 40.604vw;
@@ -453,8 +453,8 @@
     height: 8.971vw;
   }
   @keyframes textone {
-    0% {padding-top: 38.250vw;}
-    100% {padding-top: 40.250vw;}
+    0% {padding-left: 13.625vw;}
+    100% {padding-left: 15.625vw;}
   }
   @keyframes texttwo {
     0% {margin-left: 46.778vw;}
@@ -469,12 +469,12 @@
     100% {margin-top: 82.646vw;}
   }
   @keyframes textfive {
-    0% {margin-top: 39.403vw;}
-    100% {margin-top: 41.403vw;}
+    0% {margin-top: 40.403vw;}
+    100% {margin-top: 42.403vw;}
   }
   @keyframes textsix {
-    0% {margin-top: -1.542vw;}
-    100% {margin-top: 1.542vw;}
+    0% {margin-left: 4.5vw;}
+    100% {margin-left: 6.5vw;}
   }
   @keyframes imgone {
     0% {opacity: 0%; transform: scale(1); transform: rotate(10deg);}
