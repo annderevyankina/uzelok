@@ -5,6 +5,7 @@ body {
   margin: 0 auto;
   background: no-repeat top/100% url("../images/thread1920.png");
   font-family: 'Fantasque Sans Mono', sans-serif;
+  overflow-x: hidden;
 }
 h1 {
   font-size: 3.125vw;

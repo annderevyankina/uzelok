@@ -2,6 +2,7 @@
   body {
     background: no-repeat top/100% url('../images/thread1440.png');
     height: 216.833vw;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 3.472vw;
@@ -149,6 +150,7 @@
   body {
     background: no-repeat top/100% url('../images/thread834.png');
     height: 218.863vw;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 3.597vw;
@@ -189,7 +191,7 @@
   }
   .m1 div {
     margin-top: 29.219vw;
-    margin-left: 1vw;
+    margin-left: 3vw;
   }
   .m1 img {
     width: 35.208vw;
@@ -296,6 +298,7 @@
   body {
     background: no-repeat top/100% url('../images/thread414.png');
     height: 280.676vw;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 4.831vw;
