@@ -478,27 +478,27 @@
   }
   @keyframes imgone {
     0% {opacity: 0%; transform: scale(1); transform: rotate(10deg);}
-    50% {transform: scale(1.05); transform: rotate(10deg);}
+    50% {transform: scale(1.05); transform: rotate(12.2deg);}
     100% {opacity: 100%; transform: scale(1); transform: rotate(10deg);}
   }
   @keyframes imgtwo {
     0% {opacity: 0%; transform: scale(1); transform: rotate(-1deg);}
-    50% {transform: scale(.95); transform: rotate(-1deg);}
+    50% {transform: scale(.95); transform: rotate(-3.2deg);}
     100% {opacity: 100%; transform: scale(1); transform: rotate(-1deg);}
   }
   @keyframes imgthree {
     0% {opacity: 0%; transform: scale(1); transform: rotate(2deg);}
-    50% {transform: scale(1.05); transform: rotate(2deg);}
+    50% {transform: scale(1.05); transform: rotate(4.2deg);}
     100% {opacity: 100%; transform: scale(1); transform: rotate(2deg);}
   }
   @keyframes imgfour {
     0% {opacity: 0%; transform: scale(1); transform: rotate(30deg);}
-    50% {transform: scale(1.05); transform: rotate(30deg);}
+    50% {transform: scale(1.05); transform: rotate(32.2deg);}
     100% {opacity: 100%; transform: scale(1); transform: rotate(30deg);}
   }
   @keyframes imgfive {
     0% {opacity: 0%; transform: scale(1); transform: rotate(30deg);}
-    50% {transform: scale(1.05); transform: rotate(30deg);}
+    50% {transform: scale(1.05); transform: rotate(32.2deg);}
     100% {opacity: 100%; transform: scale(1); transform: rotate(30deg);}
   }
 }
